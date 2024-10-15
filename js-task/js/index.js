@@ -1,4 +1,4 @@
-function NewString() {
+function newString() {
     const str = prompt("Please enter a string of 3 or more characters:");
 
     // handling the string characters (three or more)
@@ -10,8 +10,7 @@ function NewString() {
 
     return lastThree + str + lastThree;
   }
-  
-  // Display the result to the user
-  alert(NewString());
+
+  alert(newString());
 
   
